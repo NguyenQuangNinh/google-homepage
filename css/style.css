@@ -1,0 +1,29 @@
+body {
+	font-family: arial, sans-serif;
+	font-size: 0.8em;
+}
+
+a {
+	text-decoration: none;
+}
+
+#wrapper {
+	position: relative;
+	height: 100%;
+}
+
+header ul {
+	margin-top: 16px;
+	float:right;
+	margin-right: 16px;
+}
+
+header ul li {
+	padding-left: 16px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.avatar {
+	border-radius: 100%;
+}
