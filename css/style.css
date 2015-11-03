@@ -9,7 +9,7 @@ a {
 
 #wrapper {
 	position: relative;
-	height: 100%;
+	overflow: hidden;
 }
 
 header ul {
@@ -26,4 +26,35 @@ header ul li {
 
 .avatar {
 	border-radius: 100%;
+}
+
+.username {
+	color: #000;
+	opacity: 0.55;
+}
+
+.header_link {
+	color: #000;
+	opacity: 0.75;
+}
+
+article {
+	margin-top: 200px;
+}
+
+article section {
+	text-align: center;
+}
+
+article form input[type="search"]
+{
+	width: 584px;
+	height: 38px;
+}
+
+article div.search_input a {
+	vertical-align: middle;
+	display: inline-block;
+	position: relative;
+	right: 67px;
 }
