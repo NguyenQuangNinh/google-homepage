@@ -50,6 +50,11 @@ article form input[type="search"]
 {
 	width: 584px;
 	height: 38px;
+	padding-left: 10px;
+}
+
+article div.search_input {
+	margin-top: 33px;
 }
 
 article div.search_input a {
@@ -58,3 +63,18 @@ article div.search_input a {
 	position: relative;
 	right: 67px;
 }
+
+article div.search_button_container {
+	margin-top: 32px;
+}
+
+article .button {
+	height: 36px;
+	padding: 0px 17px;
+	background-image: -moz-linear-gradient(center top , #F5F5F5, #F1F1F1);
+	background-image: -webkit-linear-gradient(center top , #F5F5F5, #F1F1F1);
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+}
+
