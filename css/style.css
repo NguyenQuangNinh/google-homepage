@@ -1,3 +1,7 @@
+html,body {
+	height: 100%;
+}
+
 body {
 	font-family: arial, sans-serif;
 	font-size: 0.8em;
@@ -8,6 +12,7 @@ a {
 }
 
 #wrapper {
+	min-height: 100%;
 	position: relative;
 	overflow: hidden;
 }
@@ -40,6 +45,7 @@ header ul li {
 
 article {
 	margin-top: 200px;
+	padding-bottom: 82px;
 }
 
 article section {
@@ -49,7 +55,7 @@ article section {
 article form input[type="search"]
 {
 	width: 584px;
-	height: 38px;
+	height: 42px;
 	padding-left: 10px;
 }
 
@@ -77,4 +83,43 @@ article .button {
 	border-radius: 2px;
 	color: #757575;
 }
+
+footer {
+	width:100%;
+	position: absolute;
+	bottom: 0px;
+	height: 40px;
+	border-top: 1px solid #e4e4e4;
+	background-color: #f2f2f2;
+}
+
+footer ul {
+	height: 100%;
+	display: table;
+}
+
+footer ul li{
+	display: table-cell;
+	padding-left: 24px;
+	vertical-align: middle;
+}
+
+footer ul li a {
+	color: #666;
+	font-size: 1em;
+}
+
+footer ul li a:hover {
+	text-decoration: underline;
+}
+
+.footer_left {
+	float: left;
+}
+
+.footer_right {
+	float: right;
+	margin-right: 30px;
+}
+
 
